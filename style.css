@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: url(./assets/mittens.png), auto;
+}
+
+.adject-animal-container {
+    display: flex;
+}
+
+#animalH2 {
+    padding-left: 1em;
+}
