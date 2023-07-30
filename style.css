@@ -5,13 +5,60 @@
 }
 
 body {
-    cursor: url(./assets/mittens.png), auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+}
+
+#bk-logo-left {
+    animation-name: logo-left;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#bk-logo-right {
+    animation-name: logo-right;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-left {
+    25%{transform: rotate(-45deg);}
+    75%{transform: rotate(45deg);}
+}
+
+@keyframes logo-right {
+    25%{transform: rotate(45deg);}
+    75%{transform: rotate(-45deg);}
+}
+
+#title {
+    text-align: center;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
 }
 
 .adject-animal-container {
     display: flex;
+    justify-content: center;
 }
 
 #animalH2 {
     padding-left: 1em;
+}
+
+#generateBtn {
+    margin: 0 auto;
+    display: flex;
 }
