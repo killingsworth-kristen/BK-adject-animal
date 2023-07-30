@@ -11,6 +11,7 @@ body {
     align-items: center;
     vertical-align: middle;
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #title-container {
@@ -42,6 +43,7 @@ body {
 
 #title {
     text-align: center;
+    margin: 0 16px;
 }
 
 #flex-container {
@@ -61,4 +63,8 @@ body {
 #generateBtn {
     margin: 0 auto;
     display: flex;
+    padding: 1rem;
+    margin-top: 16px;
+    background-color: white;
+    border: 1px solid black;
 }
